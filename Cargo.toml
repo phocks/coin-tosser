@@ -3,6 +3,8 @@ name = "coin-tosser"
 version = "0.1.0"
 authors = ["Joshua Byrd <phocks@gmail.com>"]
 edition = "2018"
+description = "Toss coins."
+licence = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
