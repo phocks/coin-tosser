@@ -1,7 +1,7 @@
 use rand::prelude::*;
 
 fn main() {
-  let how_many_tosses = 15;
+  let how_many_tosses = 10;
 
   let mut iteration = 0;
   let mut done = false;
