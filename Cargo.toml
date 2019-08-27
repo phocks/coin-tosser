@@ -5,8 +5,10 @@ authors = ["Joshua Byrd <phocks@gmail.com>"]
 edition = "2018"
 description = "Toss coins."
 license = "MIT"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand = "0.7.0"
+cargo-readme = "3.1.2"
