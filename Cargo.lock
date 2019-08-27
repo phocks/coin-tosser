@@ -15,6 +15,13 @@ version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "coin-tosser"
+version = "0.1.0"
+dependencies = [
+ "rand 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -33,13 +40,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "libc"
 version = "0.2.62"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "package"
-version = "0.1.0"
-dependencies = [
- "rand 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
 
 [[package]]
 name = "ppv-lite86"

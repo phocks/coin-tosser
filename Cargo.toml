@@ -1,5 +1,5 @@
 [package]
-name = "package"
+name = "coin-tosser"
 version = "0.1.0"
 authors = ["Joshua Byrd <phocks@gmail.com>"]
 edition = "2018"
