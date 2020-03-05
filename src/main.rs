@@ -1,28 +1,30 @@
 use rand::prelude::*;
 
-fn main() {
-  let how_many_tosses = 10;
-  let number_of_rounds = 100;
+// Should take half a million average coin
+// tosses to get zero result
+const HOW_MANY_TOSSES: u32 = 20;
+const NUMBER_OF_ROUNDS: u32 = 1;
 
+fn main() {
   let mut average = 0;
 
-  for x in 0..number_of_rounds {
+  for _x in 0..NUMBER_OF_ROUNDS {
     let mut iteration = 0;
     let mut done = false;
 
     while !done {
-      println!("Iteration: {}", iteration);
+      // println!("Iteration: {}", iteration);
 
       let mut heads = 0;
       let mut tails = 0;
 
-      for x in 0..how_many_tosses {
+      for _x in 0..HOW_MANY_TOSSES {
         if random() {
           // generates a boolean
-          // println!("Heads!");
+          println!("Heads!");
           heads += 1;
         } else {
-          // println!("Tails!");
+          println!("Tails!");
           tails += 1;
         }
       }
@@ -43,5 +45,5 @@ fn main() {
     average += iteration;
   }
 
-  println!("Average: {}", average / number_of_rounds);
+  println!("Average: {}", average / NUMBER_OF_ROUNDS);
 }
